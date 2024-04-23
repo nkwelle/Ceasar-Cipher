@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1> Welcome to Caesar Cipher Encryption and Decryption  Site</h1>
+      <p> This site helps you to encrypt and decrypt messages based on the Ceasar Cipher Algorithm. </p>
+        <p><a href="https://www.sciencedirect.com/topics/computer-science/caesar-cipher" target="_blank"> Click here</a>, 
+        to learn more about the Ceasar Cipher Algorithm. </p> 
+
+      <p>Enter the text you want to encrypt here</p>
+      <div id="app-container">
+        <textarea name="" id="text"></textarea>
+        <div id="tools">
+          <button id="copy" title="Copy text"><img src="copy-icon.png" style="width:1em; height:1em; alt="Copy"></button>
+          <button id="download" title="Download text"><img src="download-icon.png" style="width:1em; height:1em; alt="Download"></button>
+        </div>
+        <div id="buttons-container">
+          <h4>Enter Shift Key:</h4> 
+          <input id="key" type="text"/>
+          <button id="encrypt">Encrypt</button>
+          <button id="decrypt">Decrypt</button>
+          
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
